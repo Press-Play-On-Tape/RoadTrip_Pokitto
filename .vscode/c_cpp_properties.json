@@ -1,0 +1,17 @@
+{
+ "configurations": [
+  {
+   "name": "Linux",
+   "includePath": [
+    "${workspaceFolder}/**"
+   ],
+   "defines": [],
+   "compilerPath": "/Applications/Programming/FemtoIDE.app/Contents/Resources/app.nw/darwin/arm/bin/arm-none-eabi-g++",
+   "cStandard": "c11",
+   "cppStandard": "c++17",
+   "intelliSenseMode": "gcc-arm",
+   "compileCommands": "/Users/simonholmes/projects/RoadTrip_Pokitto/compile_commands.json"
+  }
+ ],
+ "version": 4
+}

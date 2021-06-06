@@ -1,0 +1,15 @@
+// Automatically generated file, do not edit.
+
+#pragma once
+
+inline constexpr uint8_t Arrow[] = {
+1, 8,
+0x07,
+0x07,
+0x07,
+0x07,
+0x07,
+0x07,
+0x07,
+0x07
+};

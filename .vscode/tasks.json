@@ -1,0 +1,35 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+  {
+   "label": "Femto compile",
+   "type": "shell",
+   "command": "\"/Applications/Programming/FemtoIDE.app/Contents/MacOS/nwjs\" \"/Applications/Programming/FemtoIDE.app/Contents/Resources/app.nw\" \"RoadTrip_Pokitto\" compile",
+   "problemMatcher": [
+    "$gcc"
+   ],
+   "group": "build"
+  },
+  {
+   "label": "Femto clean compile",
+   "type": "shell",
+   "command": "\"/Applications/Programming/FemtoIDE.app/Contents/MacOS/nwjs\" \"/Applications/Programming/FemtoIDE.app/Contents/Resources/app.nw\" \"RoadTrip_Pokitto\" cleanCompile",
+   "problemMatcher": [
+    "$gcc"
+   ],
+   "group": "build"
+  },
+  {
+   "label": "Femto compile & run",
+   "type": "shell",
+   "command": "\"/Applications/Programming/FemtoIDE.app/Contents/MacOS/nwjs\" \"/Applications/Programming/FemtoIDE.app/Contents/Resources/app.nw\" \"RoadTrip_Pokitto\" compileAndRun",
+   "problemMatcher": [
+    "$gcc"
+   ],
+   "group": {
+    "kind": "build",
+    "isDefault": true
+   }
+  }
+ ]
+}

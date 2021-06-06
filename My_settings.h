@@ -1,0 +1,8 @@
+#pragma once
+
+#define PROJ_BUTTONS_POLLING_ONLY
+
+#define PROJ_HIGH_RAM HIGH_RAM_MUSIC
+#define PROJ_AUD_FREQ 22050
+
+#define PROJ_SCREENMODE MODE13
